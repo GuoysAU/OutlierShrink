@@ -6,7 +6,7 @@ Welcome to the repository accompanying our paper "Towards Highly Efficient Seman
 
 
 ## Dataset files
-See Dataset folder
+See Datasets folder
 
 
 ## Usage
