@@ -7,3 +7,7 @@ Welcome to the repository accompanying our paper "Towards Highly Efficient Seman
 Download from the following Google Drive link:
 
 https://drive.google.com/drive/folders/1nKLL751nPLweo3aI_8Dp09RUpkEXd2YX?usp=drive_link
+
+
+## Requirements:
+TODO
