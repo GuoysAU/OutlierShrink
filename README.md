@@ -16,7 +16,7 @@ Welcome to the repository accompanying our paper "Towards Highly Efficient Seman
 
 
 ## Usage
-To use the model, download the data, change directory to this project code, execute the command:
+To use the model, download the data, change directory accordingly to this project code, execute the command:
 - `python main.py` (for testing outlier detection results for uncompressed as well as compressed data)
 - `python AnomalyD_Comp.py` (for testing outlier detection results for compressed data)
 - `python AnomalyD_Orig.py` (for testing outlier detection results for compressed data)
