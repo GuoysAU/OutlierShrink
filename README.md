@@ -6,9 +6,17 @@ Welcome to the repository accompanying our paper "Towards Highly Efficient Seman
 
 
 ## Dataset files
-See Datasets folder
+- See Datasets folder
+
+
+## Prerequisites
+- Python version 3.9.18
+- All required packages are installed (by command `pip install -r requirements.txt`)
+- Windows, Linux or macOS system
 
 
 ## Usage
-### Requirements:
-TODO
+To use the model, download the data, change directory to this project code, execute the command:
+- `python main.py` (for testing outlier detection results for uncompressed as well as compressed data)
+- `python AnomalyD_Comp.py` (for testing outlier detection results for compressed data)
+- `python industry_demo.py` (for testing outlier detection results for compressed data)
