@@ -11,7 +11,8 @@ Welcome to the repository accompanying our paper "Towards Highly Efficient Seman
 
 ## Prerequisites
 - Python version 3.9.18
-- All required packages are installed (by command `pip install -r requirements.txt`)
+- Create a new Python virtual environment
+- Install the dependencies via pip install -r requirements.txt
 - Windows, Linux or macOS system
 
 
