@@ -21,3 +21,4 @@ To use the model, download the data, change directory accordingly to this projec
 - `python main.py` (for testing outlier detection results for uncompressed as well as compressed data)
 - `python AnomalyD_Comp.py` (for testing outlier detection results for compressed data)
 - `python AnomalyD_Orig.py` (for testing outlier detection results for compressed data)
+- `Experiment.ipynb` (an example showing call detection methods as well as the detection results)
