@@ -32,12 +32,14 @@ This procedure emulates sensor faults and abrupt behavioral changes commonly enc
 - **Daphnet** [[10]](#10): This dataset contains annotated tri-axial accelerometer data from individuals with Parkinson’s disease. Anomalies correspond to freezing-of-gait events during daily walking tasks, representing high-impact anomalies in a clinical setting.
 - **IOPS** [[11]](#11): A collection of server-level performance metrics from cloud infrastructure, published as part of the AIOps anomaly detection challenge. The dataset captures subtle performance degradation, transient failures, and high-variance traffic patterns in production environments.
 
----
 
 ## Access
 Download from the following Google Drive link:
 
 https://drive.google.com/drive/folders/1nKLL751nPLweo3aI_8Dp09RUpkEXd2YX?usp=drive_link
+
+---
+
 
 ## References
 1. Sun et al., SHRINK: Data Compression by Semantic Extraction and Residuals Encoding, 2024.  
