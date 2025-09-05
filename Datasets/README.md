@@ -16,9 +16,9 @@ Following our previous work [[1]](#1), we firstly used the **UcNe collection** d
 - 5 datasets from the UCR time series repository  
 - 4 datasets from the National Ecological Observatory Network (NEON)
 
-Specifically, five of them are derived from the UCR time series repository and four from the National Ecological Observatory Network (NEON). We introduce synthetic outliers in these datasets for systematic evaluation. Point outliers are randomly introduced by selecting 0.1\% of time points and perturbing their values by adding or subtracting four times the standard deviation of the original signal. Sequence outliers are randomly introduced by non-overlapping segments with lengths drawn uniformly from the range 10–30 time steps. The total number of outlier points from sequence outliers accounts for 1.0\% of the data length. 
+% Specifically, five of them are derived from the UCR time series repository and four from the National Ecological Observatory Network (NEON). 
 
-This procedure follows common practices adopted in synthetic benchmark construction for time series anomaly detection [[2]](#2) [[3]](#3), and aims to emulate sensor faults and abrupt behavioral changes frequently encountered in IoT systems. We inject synthetic anomalies following standard practices [[2],[3]]:
+We introduce synthetic outliers in these datasets for systematic evaluation. Point outliers are randomly introduced by selecting 0.1\% of time points and perturbing their values by adding or subtracting four times the standard deviation of the original signal. Sequence outliers are randomly introduced by non-overlapping segments with lengths drawn uniformly from the range 10–30 time steps. The total number of outlier points from sequence outliers accounts for 1.0\% of the data length. This procedure follows common practices adopted in synthetic benchmark construction for time series anomaly detection [[2]](#2) [[3]](#3), and aims to emulate sensor faults and abrupt behavioral changes frequently encountered in IoT systems:
 - **Point outliers**: randomly inject 0.1% of time points by adding/subtracting four times the standard deviation.  
 - **Sequence outliers**: inject non-overlapping segments (length 10–30 time steps), accounting for ~1.0% of total points.  
 
