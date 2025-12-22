@@ -38,6 +38,18 @@ Download from the following Google Drive link:
 
 https://drive.google.com/drive/folders/1nKLL751nPLweo3aI_8Dp09RUpkEXd2YX?usp=drive_link
 
+
+## Example Visualisations
+
+
+**Genesis (Irregular air-pressure dynamics)**  
+![Genesis example](figures/Genesis.jpg)
+
+**Daphnet (Irregular Parkinsonian motion)**  
+![Daphnet example](figures/Daphnet.jpg)
+
+
+
 ---
 
 
