@@ -41,12 +41,17 @@ https://drive.google.com/drive/folders/1nKLL751nPLweo3aI_8Dp09RUpkEXd2YX?usp=dri
 
 ## Example Visualisations
 
+The following examples illustrate representative signal patterns from non-periodic and highly irregular real-world datasets used in our evaluation.
 
-**Genesis (Irregular air-pressure dynamics)**  
-![Genesis example](figures/Genesis.jpg)
+<p float="left">
+  <img src="figures/Genesis.jpg" width="45%" />
+  <img src="figures/Daphnet.jpg" width="45%" />
+</p>
+<p>
+  <em>Left:</em> Genesis (irregular air-pressure dynamics). &nbsp;&nbsp;
+  <em>Right:</em> Daphnet (irregular Parkinsonian motion).
+</p>
 
-**Daphnet (Irregular Parkinsonian motion)**  
-![Daphnet example](figures/Daphnet.jpg)
 
 
 
