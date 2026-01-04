@@ -1,8 +1,8 @@
-# Towards Highly Efficient Semantic Communication via Semantic-aware Compression on Time Series Data
+# Compress Once, Analyze Directly: Space-Efficient Semantic Representation for Accurate and Fast Outlier Detection
 
 
 ## Overview
-Welcome to the repository accompanying our paper "Towards Highly Efficient Semantic Communication via Semantic-aware Compression on Time Series Data". We propose a novel lightweight method to support semantic communication through direct analytics on time series data compressed without decompression via the SHRINK compression. By incorporating semantic quantization and transformations, our method extends SHRINK to align with the principles of semantic communication, enabling task-oriented analytics directly on compressed data. 
+Welcome to the repository accompanying our paper "Compress Once, Analyze Directly: Space-Efficient Semantic Representation for Accurate and Fast Outlier Detection". We propose a novel lightweight method to support semantic communication through direct analytics on time series data compressed without decompression via the SHRINK compression. By incorporating semantic quantization and transformations, our method extends SHRINK to align with the principles of semantic communication, enabling task-oriented analytics directly on compressed data. 
 
 
 ## Dataset files
