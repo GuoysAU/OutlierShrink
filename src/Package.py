@@ -56,12 +56,41 @@ def compute_entropy_norm(values, num_bins=64):
     """
     Compute normalised Shannon entropy for time series data.
     """
+    num_bins = compute_fd_bins(values)
     hist, _ = np.histogram(values, bins=num_bins, density=True)
     p = hist / np.sum(hist)
     p = p[p > 0]
     entropy = -np.sum(p * np.log2(p))
     entropy_max = np.log2(num_bins)
     return entropy / entropy_max if entropy_max > 0 else 0
+    
+def compute_fd_bins(values, min_bins=2, max_bins=512):
+    """
+    Compute the number of histogram bins using the Freedman–Diaconis rule.
+    """
+    x = np.asarray(values)
+    x = x[np.isfinite(x)]
+    n = x.size
+
+    if n <= 1:
+        return min_bins
+
+    q25, q75 = np.percentile(x, [25, 75])
+    iqr = q75 - q25
+
+    if iqr <= 0:
+        return min_bins
+
+    h = 2.0 * iqr / (n ** (1.0 / 3.0))
+    if h <= 0:
+        return min_bins
+
+    lo, hi = np.min(x), np.max(x)
+    if not np.isfinite(lo) or not np.isfinite(hi) or hi <= lo:
+        return min_bins
+
+    k = int(np.ceil((hi - lo) / h))
+    return max(min_bins, min(k, max_bins))
 
 def estimate_snr_from_file(filepath, value_col=0, label_col=1, snr_min=25, snr_max=35, num_bins=64):
     """
