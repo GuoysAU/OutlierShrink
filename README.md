@@ -1,4 +1,4 @@
-# Compress Once, Analyze Directly: Space-Efficient Semantic Representation for Accurate and Fast Outlier Detection
+# Space-Efficient Semantic Representation for Accurate and Fast Outlier Detection
 
 
 ## Overview
