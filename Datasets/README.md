@@ -1,4 +1,4 @@
-# Highly Efficient Semantic Communication via Semantic-aware Compression
+# Space-Efficient Semantic Representation for Accurate and Fast Outlier Detection
 
 
 
